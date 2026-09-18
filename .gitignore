@@ -1,0 +1,72 @@
+.obsidian/
+
+#  Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+hs_err_pid*
+replay_pid*
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+#  Spring Boot
+
+application-local.yml
+application-secret.yml
+*.env
+
+#  Node.js / Frontend
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/coverage/
+frontend/*.local
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+
+#  IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+#  Docker
+.docker/
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+#  Логи
+*.log
+logs/
+/tmp/
+
+#  Секреты / Переменные окружения
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+secrets/
+*.pem
+*.key
+*.p12
+*.jks
