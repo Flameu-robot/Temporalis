@@ -1,5 +1,5 @@
 ## Тип архитектуры: Модульный монолит
-
+```
 temporalis/
 ├── core/                    # Модуль 1: Ядро
 │   ├── SagaDefinition
@@ -38,7 +38,7 @@ temporalis/
 └── observability/           # Модуль 7: Метрики и логи
     ├── MetricsConfig
     └── StructuredLogg
-
+```
 ## Технологический стек
 
 ### Модуль 1: Core (Ядро)
